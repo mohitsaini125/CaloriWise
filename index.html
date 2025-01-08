@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CaloriWise</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>CaloriWise</h1>
+        <h2>Get Nutritional Information</h2>
+    </header>
+    <section>
+        <div>
+            <input type="text" id="foodItem" placeholder="Enter food item(s), separated by commas" />
+            <button onclick="getNutritionInfo()">Get Info</button>
+        </div>
+        <div id="nutritionResults"></div>
+    </section>
+    <div id="totalNutrition"></div>
+    <script src="renderer.js"></script>
+</body>
+</html>
